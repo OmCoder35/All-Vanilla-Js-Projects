@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(135deg, rgb(54, 9, 236), rgb(177, 27, 241));
+
+}
+
+.container {
+    display: flex;
+}
+
+button {
+    background: hsl(102, 100%, 50%);
+    color: rgb(7, 84, 14);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    margin: 5px 8px;
+    padding: 10px 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+}

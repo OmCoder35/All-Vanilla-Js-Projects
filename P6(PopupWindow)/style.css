@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    border: none;
+    background: rebeccapurple;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.35rem 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.popup-box.active {
+    display: flex;
+}
+
+.popup-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    position: relative;
+    background: white;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+    padding: 1rem 1rem;
+    /* position: absolute; */
+    height: auto;
+}
+
+.close {
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    background-color: rgb(222, 213, 213);
+    color: black;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px black rgb(0, 0, 0, 0.5);
+}
+
+.close:hover {
+    background-color: rebeccapurple;
+    color: white;
+}

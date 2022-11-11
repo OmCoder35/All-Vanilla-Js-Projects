@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    background: rebeccapurple;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.toast {
+    background: rebeccapurple;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

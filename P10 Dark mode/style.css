@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.4s linear, color 0.4s linear;
+}
+
+.container {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    border: 3px solid hsl(145, 100%, 50%);
+    padding: 4px 4px;
+    border-radius: 41px;
+}
+
+.center {
+    width: 75%;
+
+}
+
+.another-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+input {
+    visibility: hidden;
+
+}
+
+body.dark label {
+    background-color: white;
+}
+
+label {
+    background-color: hsl(9, 100%, 50%);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+    transition: background 0.3s linear;
+}
